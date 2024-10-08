@@ -18,7 +18,7 @@ export const BoardRow = ({ rowIndex }: BoardRowProps) => {
           return (
             <Square
               key={squareIndex}
-              value={squares[squareIndex]}
+              squareValue={squares[squareIndex]}
               onClick={() => setSquareValue(squareIndex)}
             />
           )
