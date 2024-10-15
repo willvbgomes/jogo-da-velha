@@ -66,6 +66,7 @@ export const useGameRules = () => {
   return {
     gameOver,
     squares,
+    xIsNext,
     getWinner,
     resetGame,
     setSquareValue,
