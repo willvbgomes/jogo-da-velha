@@ -3,7 +3,7 @@ import { useGameContext } from '../hooks/game-context'
 export const Status = () => {
   const { squares, xIsNext, getWinner } = useGameContext()
   const winner = getWinner(squares)
-  const drawGame = squares.every(value => value !== null)
+  const drawGame = !winner && squares.every(value => value !== null)
 
   return (
     <span className="text-2xl">
