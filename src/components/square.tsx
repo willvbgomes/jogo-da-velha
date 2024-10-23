@@ -8,7 +8,7 @@ type SquareProps = ComponentProps<'button'> & {
 export const Square = ({ squareValue, ...props }: SquareProps) => (
   <button
     {...props}
-    className="h-20 w-20 border-l border-transparent text-3xl [&+button]:border-l-zinc-50"
+    className="h-20 w-20 border-l border-transparent text-3xl [&+button]:border-l-primary"
   >
     {squareValue}
   </button>

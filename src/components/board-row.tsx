@@ -9,7 +9,7 @@ export const BoardRow = ({ rowIndex }: BoardRowProps) => {
   const { squares, setSquareValue } = useGameContext()
 
   return (
-    <div className="flex border-t border-transparent [&+div]:border-t-zinc-100">
+    <div className="flex border-t border-transparent [&+div]:border-t-primary">
       {Array(3)
         .fill(null)
         .map((_, i) => {
