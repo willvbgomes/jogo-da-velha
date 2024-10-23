@@ -1,3 +1,4 @@
+import { cn } from '@/lib/utils'
 import { useGameContext } from '../hooks/game-context'
 
 export const Status = () => {
@@ -6,7 +7,16 @@ export const Status = () => {
   const drawGame = !winner && squares.every(value => value !== null)
 
   return (
-    <span className="text-2xl">
+    <span
+      className={cn(
+        'rounded border-2 border-transparent p-3 text-2xl',
+        !winner
+          ? null
+          : winner === 'X'
+            ? 'bg-color1/40 border-color1'
+            : 'bg-color2/40 border-color2',
+      )}
+    >
       {drawGame
         ? 'Empate'
         : winner
