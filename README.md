@@ -16,6 +16,10 @@
 
 Um jogo da velha simples desenvolvido em React com TypeScript, utilizando Vite.
 
+<p align="center">
+  <img src="./.github/demo.gif" alt="Captura de Tela" width="320px">
+</p>
+
 ## Conteúdo
 
 - [Sobre](#pushpin-sobre)
@@ -32,6 +36,8 @@ O Jogo da Velha é um clássico jogo de tabuleiro onde dois jogadores se revezam
 - **Interface Intuitiva:** Uma interface de usuário simples e fácil de usar.
 - **Multiplayer Local:** Permite que dois jogadores joguem um contra o outro no mesmo dispositivo.
 - **Reinício do Jogo:** Opção para reiniciar o jogo após uma partida.
+- **Seletor de Tema:** Opção para selecionar tema claro ou escuro.
+- **Identificação de Jogador:** Exibe uma mensagem do próximo jogador (X ou O).
 - **Identificação de Vencedor:** Exibe uma mensagem quando um jogador vence.
 - **Empate:** Indica quando a partida termina em empate.
 
@@ -40,6 +46,7 @@ O Jogo da Velha é um clássico jogo de tabuleiro onde dois jogadores se revezam
 - React
 - TypeScript
 - Tailwind CSS
+- Shadcn-ui
 - Vite
 
 ## :arrow_down: Instalação
